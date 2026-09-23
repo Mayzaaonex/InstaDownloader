@@ -136,17 +136,6 @@ Media (video, photo, thumbnail) is served through IQSaved's own CDN.
 
 ---
 
-## 🔧 How It Works
-
-```
-1. Get session cookie from iqsaved.com
-2. Get a search token
-3. Connect via Socket.IO and submit the Instagram URL
-4. Receive searchResult payload
-5. Parse author, caption, stats, and media URLs
-6. Output pure JSON to stdout
-```
-
 ---
 
 ## ⚙️ Integration with Other Apps
